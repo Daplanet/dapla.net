@@ -1,0 +1,31 @@
+# Site settings
+title: Da Planet Security
+email: sales@dapla.net
+description: >
+  Da Planet Security Research Team
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/daplanet
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/daplant
+  - title: github
+    url: http://github.com/daplanet
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3800 Pebble Creek Ct.
+  - line: Plano, Tx. 75023  
+
+# Build settings
+markdown: kramdown
+permalink: pretty
