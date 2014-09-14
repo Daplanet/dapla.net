@@ -10,10 +10,9 @@ alt: cloud health
 title: Cloud Health Report
 category: Solutions 
 description: >
-  Up to the minute cloud reporting
-  <div class="col-lg-8 col-lg-offset-2 text-center">
-      <a href="#" class="btn btn-lg btn-outline">
-          <i class="fa fa-download"></i> Subscribe Now
-      </a>
-  </div>
+  Up to the minute cloud reporting.</p>
+  <a href="#" class="btn btn-lg btn-outline">
+      <i class="fa fa-download"></i> Subscribe Now
+  </a>
+
 ---
