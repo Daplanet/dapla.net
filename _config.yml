@@ -29,3 +29,4 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ["bower.json"]
