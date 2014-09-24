@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "dependencies": {
       "font-awesome": "~3.1.1",
-      "d3" : "~3.0"
+      "jquery" : "1.11.0",
+      "jquery-easing": nil,
+      "bootstrap": "3.2.0"
     }
 }
