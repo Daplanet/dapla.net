@@ -2,6 +2,20 @@
     "name": "Da Planet Security",
     "version": "1.0.0",
     "directory": "assets",
+    "private": true,
+    "licence": "MIT",
+    "description": "Da Planet Security",
+    "authors": [
+      "Dwight A. Spencer (@denzuko) <dspencer@dapla.net>"
+    ],
+    "homepage": "http://dapla.net/",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
     "dependencies": {
       "font-awesome": "~3.1.1",
       "jquery" : "1.11.0",
