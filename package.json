@@ -1,0 +1,21 @@
+{
+  "name": "Da Planet Security",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "homepage": "http://dapla.net/",
+  "description": "Da Planet Security",
+  "authors": [
+    "Dwight A. Spencer (@denzuko) <dspencer@dapla.net>"
+  ],
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "bower": "*",
+    "grunt-exec": "*"
+  },
+  "engines": {
+    "npm": "1.2.x"
+  }
+}
