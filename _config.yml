@@ -4,6 +4,15 @@ email: sales@dapla.net
 description: >
   Da Planet Security Research Team
 
+include:
+  - .nojekyll
+
+exclude:
+  - bower.json
+  - bower_components
+  - README.md
+  - CNAME
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
