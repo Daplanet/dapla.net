@@ -347,7 +347,7 @@ footer h4 {
 
 footer .footer-col strong {
   font-weight: italic;
-  color: #e7e7e7e;
+  color: ${{ site.color.primary }};
 }
 
 footer .footer-above {
