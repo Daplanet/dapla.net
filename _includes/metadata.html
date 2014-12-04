@@ -1,0 +1,7 @@
+{% if include.content %}
+  <title>{{ include.content.title }</title>
+  <meta name="description" content="{{ include.content.description }}">
+  {% if include.content.keywords %}
+  <meta name="keywords" content="{{ include.content.keywords }}">
+  {% endif %}
+{% endif %}
