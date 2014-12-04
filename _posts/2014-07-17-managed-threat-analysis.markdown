@@ -1,6 +1,10 @@
 ---
 layout: default
 modal-id: 2
+sitemap:
+  priority: 0.7
+  changefreq: monthly
+  lastmod: Sun Sep 14 06:26:42 GMT 2014
 img: cake.png
 alt: image-alt
 title: Managed Threat Analysis
