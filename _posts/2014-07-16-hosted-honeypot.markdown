@@ -10,4 +10,15 @@ To protect your network better Da Planet Security provides a hosted malware
 collection service that will allow us to do predictive modeling on malicious 
 traffic and prevent future intrusions with customized updated IDS definitions.
 
+opengraph:
+  title: Hosted Malware Collection Service
+  type: article
+  image: circus.png
+  description: >
+    To protect your network better Da Planet Security provides a hosted malware 
+    collection service that will allow us to do predictive modeling on malicious 
+    traffic and prevent future intrusions with customized updated IDS definitions.
+  site_name: Da Planet Security
+  fb_admins:
+
 ---
