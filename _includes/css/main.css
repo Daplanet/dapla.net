@@ -337,17 +337,17 @@ footer {
 }
 
 footer h3 {
-    margin-bottom: 30px;
     font-size: 1.3em;
 }
 
 footer h4 {
+    margin-bottom: 30px;
     font-size: 1em;
 }
 
 footer .footer-col strong {
   font-weight: italic;
-  color: #373737;
+  color: #e7e7e7e;
 }
 
 footer .footer-above {
