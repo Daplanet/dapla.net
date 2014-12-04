@@ -355,7 +355,7 @@ footer h4 {
 
 footer .footer-col strong {
   font-weight: italic;
-  color: ${{ site.color.primary }};
+  color: #{{ site.color.primary }};
 }
 
 footer .footer-above {
@@ -365,7 +365,7 @@ footer .footer-above {
 
 footer .footer-col {
     margin-bottom: 50px;
-    font-size 20px;
+    font-size: 20px;
 }
 
 footer .footer-below {
