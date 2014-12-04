@@ -24,10 +24,14 @@ color:
 social:
   - title: twitter
     url: http://twitter.com/daplanet
+  - title: linkedin
+    url: http://linkedin.com/company/daplanet
   - title: github
     url: http://github.com/daplanet
-  - title: linkedin
-    url: http://linkedin.com/in/daplanet
+  - title: stackoverflow
+    url: http://careers.stackoverflow.com/company/daplanet
+  - title: crunchbase
+    url: http://crunchbase.com/organization/da-planet-security
 
 # Postal address (add as many lines as necessary)
 address:
