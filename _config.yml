@@ -1,8 +1,8 @@
 # Site settings
-title: Da Planet Security
-email: sales@dapla.net
-description: >
-  Da Planet Security Research Team
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 include:
   - .nojekyll
@@ -13,6 +13,7 @@ exclude:
   - bower_components
   - README.md
   - CNAME
+  - bower.json
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -20,7 +21,7 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames (using font awesome for icons )
 social:
   - title: twitter
     url: http://twitter.com/daplanet
@@ -31,12 +32,20 @@ social:
   - title: stack-overflow
     url: http://careers.stackoverflow.com/company/daplanet
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3800 Pebble Creek Ct.
-  - line: Plano, Tx. 75023  
+email: sales@dapla.net
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-exclude: ["bower.json"]
+# SEO Meta data ( works with page frontmater )
+meta:
+  title: Da Planet Security
+  description: >
+  The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider.
+
+# Social Media tags ( works with page frontmater )
+opengraph:
+  title: Leaders in Cloud Security and Big Data analytics.
+  type: article
+  image:
+  description: >
+  The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider.
+  site_name: Da Planet Security
+  fb_admins:
