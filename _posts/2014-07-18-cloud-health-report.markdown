@@ -10,9 +10,22 @@ alt: cloud health
 title: Cloud Health Report
 category: Solutions 
 description: >
-  Up to the minute cloud reporting.</p>
+  Da Planet Security's Cloud health reporting provides transparency within
+  your cloud to help mitigate business and security risks. Up to the minute 
+  reporting on the security of your cloud.</p>
   <a href="#" class="btn btn-lg btn-outline">
       <i class="fa fa-download"></i> Subscribe Now
   </a>
+
+opengraph:
+  title: Cloud Security Health Report
+  type: article
+  image: cabin.png
+  description: >
+    Da Planet Security's Cloud health reporting provides transparency within
+    your cloud to help mitigate business and security risks with up to the
+    minute reporting.
+  site_name: Da Planet Security
+  fb_admins:
 
 ---
