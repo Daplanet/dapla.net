@@ -12,4 +12,15 @@ description: >
   provider offers a chef security officer, chief information security officer,
   and a full-fledged security operations team to protect your secured cloud
   environment.
+
+opengraph:
+  title: Managed Threat Analysis
+  type: article
+  image: cake.png
+  description: >
+    Da Planet Security's Managed Threat Analysis reduces risk by helping you
+    protect your data and exceed compliance.
+  site_name: Da Planet Security
+  fb_admins:
+
 ---
