@@ -1,0 +1,9 @@
+{% if include.content %}
+{% for content in include.content %}
+
+<li class="page-scroll">
+  <a title="{{content.title}}" rel="{{content.rel}}" href="#{{content.url}}">{{content.value}}</a>
+</li>
+
+{% endfor %}
+{% endif %}
