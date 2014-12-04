@@ -1,6 +1,10 @@
 ---
 layout: default
 modal-id: 3
+sitemap:
+  priority: 0.7
+  changefreq: monthly
+  lastmod: Sun Sep 14 06:26:42 GMT 2014
 img: circus.png
 alt: honeynet
 title: Hosted Malware Collection Service
