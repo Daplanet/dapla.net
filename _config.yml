@@ -29,9 +29,7 @@ social:
   - title: github
     url: http://github.com/daplanet
   - title: stack-overflow
-    url: http://careers.stackoverflow.com/company/daplanet
-  - title: crunchbase
-    url: http://crunchbase.com/organization/da-planet-security
+    url: http://stackoverflow.com/questions/tagged/daplanet
 
 # Postal address (add as many lines as necessary)
 address:
