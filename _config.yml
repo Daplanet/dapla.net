@@ -33,9 +33,12 @@ social:
     url: http://careers.stackoverflow.com/company/daplanet
 
 email: sales@dapla.net
-favicon: favicon.ico
+favicon: img/favicon.ico
+touchicon: img/favicon.ico
 
 # SEO Meta data ( works with page frontmater )
+author: Dwight A. Spencer (@denzuko) <support@dapla.net>
+publisher: Da Planet, LLC.
 title: Da Planet Security
 description: >
   The leader in cloud security and big data analytics, Da Planet Security is the
