@@ -20,27 +20,23 @@
     <meta name="author" content="{{ site.author }}">
 
     {% if page.opengraph %}
-      {% for content in page.opengraph %}
-      <meta property="og:title"       content="{{content.title}}">
-      <meta property="og:type"        content="{{content.type}}">
-      <meta property="og:url"         content="{{content.url}}">
-      <meta property="og:image"       content="{{content.image}}">
-      <meta property="og:description" content="{{content.description}}">
-      <meta property="og:site_name"   content="{{content.site_name}}">
-      {% endfor %}
+      <meta property="og:title"       content="{{page.opengraph.title}}">
+      <meta property="og:type"        content="{{page.opengraph.type}}">
+      <meta property="og:url"         content="{{page.opengraph.url}}">
+      <meta property="og:image"       content="{{page.opengraph.image}}">
+      <meta property="og:description" content="{{page.opengraph.description}}">
+      <meta property="og:page_name"   content="{{site.opengraph.site_name}}">
     {% elsif site.opengraph %}
-      {% for content in site.opengraph %}
-      <meta property="og:title"       content="{{content.title}}">
-      <meta property="og:type"        content="{{content.type}}">
-      <meta property="og:url"         content="{{content.url}}">
-      <meta property="og:image"       content="{{content.image}}">
-      <meta property="og:description" content="{{content.description}}">
-      <meta property="og:site_name"   content="{{content.site_name}}">
-      {% endfor %}
-    {% endif %}
+      <meta property="og:title"       content="{{site.opengraph.title}}">
+      <meta property="og:type"        content="{{site.opengraph.type}}">
+      <meta property="og:url"         content="{{site.opengraph.url}}">
+      <meta property="og:image"       content="{{site.opengraph.image}}">
+      <meta property="og:description" content="{{site.opengraph.description}}">
+      <meta property="og:site_name"   content="{{site.opengraph.site_name}}">
     {% if site.fb_admins %}
     <meta property="fb:admins"      content="{{site.fb_admins}}">
     {% endif %}
+
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
     <link rel="meta" type="application/rdf+xml" title="Dublin" href="dublin.rdf">
 
