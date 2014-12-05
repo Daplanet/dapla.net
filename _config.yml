@@ -14,6 +14,7 @@ exclude:
   - README.md
   - CNAME
   - bower.json
+  - opensearch.xml
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
