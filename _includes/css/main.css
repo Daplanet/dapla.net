@@ -473,7 +473,7 @@ footer .footer-below {
 nav a {
       position: relative;
       display: inline-block;
-      margin: 15px 25px;
+      /*margin: 15px 25px; */
       outline: none;
       color: #fff;
       text-decoration: none;
