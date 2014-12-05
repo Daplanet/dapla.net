@@ -7,4 +7,7 @@ Disallow: /
 User-agent: Yahoo Pipes 1.0
 Disallow: /
 
-Sitemap: /sitemap.xml
+Sitemap: {{site.url}}/sitemap.xml
+Crawl-delay: 10
+Visit-time: 0000-2359
+Request-rate: 1/10m
