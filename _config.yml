@@ -33,6 +33,7 @@ social:
     url: http://careers.stackoverflow.com/company/daplanet
 
 email: sales@dapla.net
+favicon: favicon.ico
 
 # SEO Meta data ( works with page frontmater )
 title: Da Planet Security
