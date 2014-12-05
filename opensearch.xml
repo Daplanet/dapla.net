@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>{{site.title}}</ShortName>
+  <Description>Search this website.</Description>
+  <Image>{{site.favicon}}</Image>
+  <Url type="text/html" template='http://www.google.com/search?sitesearch={{site.baseurl}}%2F&amp;as_q={searchTerms}'/>
+</OpenSearchDescription>
