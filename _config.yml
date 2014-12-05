@@ -49,7 +49,7 @@ description: >
 # Social Media tags ( works with page frontmater )
 opengraph:
   title: Leaders in Cloud Security and Big Data analytics.
-  type: article
+  type: website
   image: favicon.ico
   site_name: Da Planet Security
   fb_admins: 1
