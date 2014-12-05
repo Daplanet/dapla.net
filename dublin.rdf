@@ -1,8 +1,8 @@
+---
+layout: nil
+---
 <?xml version="1.0"?>
-<rdf:RDF 
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:Description rdf:about="{{site.baseurl}}">
     <dc:contributor>{{site.author}}</dc:contributor>
     <dc:date>{{site.time | date_to_xmlschmea}}</dc:date>
@@ -11,5 +11,4 @@
     <dc:publisher>{{site.publisher}}</dc:publisher>
     <dc:source>{{site.baseurl}}</dc:source>
   </rdf:Description>
-
 </rdf:RDF>
