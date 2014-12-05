@@ -1,15 +1,33 @@
 <head>
     <meta charset="utf-8">
-    {% if page.meta %}
-    {% include metadata.html content=page.meta %}
-    {% elsif site.meta %}
-    {% include metadata.html content=site.meta %}
-    {% endif %}
+    <title>{{ page.title }</title>
+    <meta name="description" content="{{ include.content.description }}">
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ include.content.keywords }}">
+    {% elsif site.keywords %}
+    <meta name="keywords" content"{{ site.keywords }}">
+    {%- endif -%}
 
     {% if page.opengraph %}
-    {% include opengraph.html content=page.opengraph %}
+      {% for content in page.opengraph %}
+      <meta property="og:title"       content="{{content.title}}">
+      <meta property="og:type"        content="{{content.type}}">
+      <meta property="og:url"         content="{{content.url}}">
+      <meta property="og:image"       content="{{content.image}}">
+      <meta property="og:description" content="{{content.description}}">
+      <meta property="og:site_name"   content="{{content.site_name}}">
+      <meta property="fb:admins"      content="{{content.fb_admins}}">
+      {%- endfor -%}
     {% elsif site.opengraph %}
-    {% include opengraph.html content=site.opengraph %}
+      {% for content in site.opengraph %}
+      <meta property="og:title"       content="{{content.title}}">
+      <meta property="og:type"        content="{{content.type}}">
+      <meta property="og:url"         content="{{content.url}}">
+      <meta property="og:image"       content="{{content.image}}">
+      <meta property="og:description" content="{{content.description}}">
+      <meta property="og:site_name"   content="{{content.site_name}}">
+      <meta property="fb:admins"      content="{{content.fb_admins}}">
+      {%- endfor -%}
     {%- endif -%}
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
