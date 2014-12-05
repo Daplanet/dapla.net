@@ -46,10 +46,8 @@ opengraph:
   - type: article
   - image: favicon.ico
   - site_name: Da Planet Security
-  - fb_admins:
-    - description: >
-    The leader in cloud security and big data analytics, Da Planet Security is 
-    the ideal managed security solutions provider.
+  - fb_admins: 1
+  - description: The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider.
 
       
 
