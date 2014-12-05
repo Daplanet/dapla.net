@@ -3,5 +3,5 @@
    <ShortName>{{site.title}}</ShortName>
   <Description>Search this website.</Description>
   <Image>{{site.favicon}}</Image>
-  <Url type="text/html" template='http://www.google.com/search?sitesearch={{site.baseurl}}%2F&amp;as_q={searchTerms}'/>
+  <Url type="text/html" template='http://www.google.com/search?sitesearch={{site.url | cgi_escape}}%2F&amp;as_q={searchTerms}'/>
 </OpenSearchDescription>
