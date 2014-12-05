@@ -16,7 +16,7 @@
     <meta name="keywords" content="{{ page.keywords }}">
     {% elsif site.keywords %}
     <meta name="keywords" content"{{ site.keywords }}">
-    {%- endif -%}
+    {% endif %}
 
     {% if page.opengraph %}
       {% for content in page.opengraph %}
@@ -26,7 +26,7 @@
       <meta property="og:image"       content="{{content.image}}">
       <meta property="og:description" content="{{content.description}}">
       <meta property="og:site_name"   content="{{content.site_name}}">
-      {%- endfor -%}
+      {% endfor %}
     {% elsif site.opengraph %}
       {% for content in site.opengraph %}
       <meta property="og:title"       content="{{content.title}}">
@@ -35,11 +35,11 @@
       <meta property="og:image"       content="{{content.image}}">
       <meta property="og:description" content="{{content.description}}">
       <meta property="og:site_name"   content="{{content.site_name}}">
-      {%- endfor -%}
-    {%- endif -%}
+      {% endfor %}
+    {% endif %}
     {% if site.fb_admins %}
     <meta property="fb:admins"      content="{{site.fb_admins}}">
-    {%- endif -%}
+    {% endif %}
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
