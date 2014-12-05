@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-8">
     {% if page.title %}
-    <title>{{ page.title }</title>
+    <title>{{ page.title }}</title>
     {% elsif site.title %}
-    <title>{{ site.title }</title>
+    <title>{{ site.title }}</title>
     {% endif %}
 
     {% if page.description %}
@@ -26,7 +26,6 @@
       <meta property="og:image"       content="{{content.image}}">
       <meta property="og:description" content="{{content.description}}">
       <meta property="og:site_name"   content="{{content.site_name}}">
-      <meta property="fb:admins"      content="{{content.fb_admins}}">
       {%- endfor -%}
     {% elsif site.opengraph %}
       {% for content in site.opengraph %}
@@ -36,8 +35,10 @@
       <meta property="og:image"       content="{{content.image}}">
       <meta property="og:description" content="{{content.description}}">
       <meta property="og:site_name"   content="{{content.site_name}}">
-      <meta property="fb:admins"      content="{{content.fb_admins}}">
       {%- endfor -%}
+    {%- endif -%}
+    {% if site.fb_admins %}
+    <meta property="fb:admins"      content="{{site.fb_admins}}">
     {%- endif -%}
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
