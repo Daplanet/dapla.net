@@ -22,18 +22,17 @@
     {% if page.opengraph %}
       <meta property="og:title"       content="{{page.opengraph.title}}">
       <meta property="og:type"        content="{{page.opengraph.type}}">
-      <meta property="og:url"         content="{{page.opengraph.url}}">
+      <meta property="og:url"         content="{{site.url}}{{page.url}}">
       <meta property="og:image"       content="{{page.opengraph.image}}">
       <meta property="og:description" content="{{page.opengraph.description}}">
-      <meta property="og:page_name"   content="{{site.opengraph.site_name}}">
     {% elsif site.opengraph %}
       <meta property="og:title"       content="{{site.opengraph.title}}">
       <meta property="og:type"        content="{{site.opengraph.type}}">
-      <meta property="og:url"         content="{{site.opengraph.url}}">
+      <meta property="og:url"         content="{{site.url}}">
       <meta property="og:image"       content="{{site.opengraph.image}}">
       <meta property="og:description" content="{{site.opengraph.description}}">
-      <meta property="og:site_name"   content="{{site.opengraph.site_name}}">
     {% endif %}
+    <meta property="og:site_name"   content="{{site.opengraph.site_name}}">
     {% if site.fb_admins %}
     <meta property="fb:admins"      content="{{site.fb_admins}}">
     {% endif %}
