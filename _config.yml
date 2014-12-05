@@ -38,7 +38,7 @@ email: sales@dapla.net
 meta:
   title: Da Planet Security
   description: >
-  The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider. Start your free trial today!
+The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider. Start your free trial today!
 
 # Social Media tags ( works with page frontmater )
 opengraph:
@@ -46,7 +46,7 @@ opengraph:
   type: article
   image:
   description: >
-  The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider.
+The leader in cloud security and big data analytics, Da Planet Security is the ideal managed security solutions provider.
   site_name: Da Planet Security
   fb_admins:
 
