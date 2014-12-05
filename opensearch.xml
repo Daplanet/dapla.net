@@ -1,1 +1,11 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>{{siet.title}}</ShortName>
+  <Description>Search Dapla.net Security</Description>
+  <Image>{{site.favicon}}</Image>
+  <Url type="text/html" template="http://www.google.com/search?sitesearch={{site.url | cgi_escape}}&2f&as_q={searchTerms}"/>
+</OpenSearchDescription>
