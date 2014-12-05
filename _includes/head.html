@@ -23,13 +23,13 @@
       <meta property="og:title"       content="{{page.opengraph.title}}">
       <meta property="og:type"        content="{{page.opengraph.type}}">
       <meta property="og:url"         content="{{site.url}}{{page.url}}">
-      <meta property="og:image"       content="{{page.opengraph.image}}">
+      <meta property="og:image"       content="{{site.url}}/{{page.opengraph.image}}">
       <meta property="og:description" content="{{page.opengraph.description}}">
     {% elsif site.opengraph %}
       <meta property="og:title"       content="{{site.opengraph.title}}">
       <meta property="og:type"        content="{{site.opengraph.type}}">
       <meta property="og:url"         content="{{site.url}}">
-      <meta property="og:image"       content="{{site.opengraph.image}}">
+      <meta property="og:image"       content="{{site.url}}/{{site.opengraph.image}}">
       <meta property="og:description" content="{{site.opengraph.description}}">
     {% endif %}
     <meta property="og:site_name"   content="{{site.opengraph.site_name}}">
