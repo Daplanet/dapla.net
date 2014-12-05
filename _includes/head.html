@@ -17,6 +17,7 @@
     {% elsif site.keywords %}
     <meta name="keywords" content"{{ site.keywords }}">
     {% endif %}
+    <meta name="author" content="{{ site.author }}">
 
     {% if page.opengraph %}
       {% for content in page.opengraph %}
@@ -40,11 +41,20 @@
     {% if site.fb_admins %}
     <meta property="fb:admins"      content="{{site.fb_admins}}">
     {% endif %}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+    <link rel="meta" type="application/rdf+xml" title="Dublin" href="dublin.rdf">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    {% if site.favicon %}
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{{ site.favicon | prepend: site.url}}">
+    <link rel="apple-touch-icon" href="{{site.touchicon}}">
+    {% endif %}
+
+    <link rel="search" type="application/opensearchdescription+xml" title="{{site.title}}" href="opensearch.xml" />
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
