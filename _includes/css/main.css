@@ -518,9 +518,7 @@ nav a:focus {
 }
 
 .cl-effect-12 a:hover::before,
-.cl-effect-12 a:hover::after,
-.cl-effect-12 a:focus::before,
-.cl-effect-12 a:focus::after {
+.cl-effect-12 a:hover::after {
   opacity: 1;
   -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
   -moz-transform: translateX(-50%) translateY(-50%) scale(1);
