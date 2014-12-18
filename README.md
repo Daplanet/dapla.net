@@ -3,6 +3,9 @@ Freelancer Jekyll theme
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
 
+## Build Status
+[![Build Status](https://drone.io/github.com/Daplanet/dapla.net/status.png)](https://drone.io/github.com/Daplanet/dapla.net/latest)
+
 ## How to use
  - Place a image in `/img/portoflio/`
  - Create posts to display your projects. Use the follow as an example:
