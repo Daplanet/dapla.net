@@ -82,20 +82,20 @@ permalink: /404.html
 	width:50%;
    }
    
-   .vids {
+   .vid {
 	background:#000;
 	box-shadow:0 1px 4px #000;
 	margin:30px 0;
    }
    
    @media only screen and (min-width: 320px) {
-	.wrapper {
+	.vid {
 		width:95%;
 	}
     }
     
     @media only screen and (min-width: 800px) {
-	.wrapper {
+	.vid {
 		width:50%;
 	}
     }
@@ -103,17 +103,34 @@ permalink: /404.html
   <script type='javascript' src="/js/jquery.fitvid.js"></script>
   </head>
   <body id="page-top" class="index">
+  
     {% include nav.html %}
-    <article>
-	<h2 class="title">Page Not found</h1>
-	<h3 class="strapline">Looks like you done ferreted you way to a place that doesn't exist. Please head back to <a href="http://dapla.net">our homepage</a>, or have fun watching the office ferret on duty.</h2>
-	<section class="wrapper content  fit-vid  vid">
-		<iframe src="http://www.youtube.com/embed/T7v9k36y_4w?vq=hd720&rel=0&showinfo=0&controls=0&iv_load_policy=3&loop=1&&modestbranding=1&autoplay=1" width="560" height="315" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-	</section>
-    </article>
-      {% include js.html %}
-      <script>
+    <header>
+      <div class="container">
+      <div class="row">
+      <div class="col-lg-12">
+      </div>
+      </div>
+      </div>
+      </div>
+    </header>
+
+    <section id="notfound">
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Page Not found</h2>
+	  <p>Looks like you done ferreted you way to a place that doesn't exist. Please head back to <a href="http://dapla.net">our homepage</a>, or have fun watching the office ferret on duty.</p>
+	  <section class="content fit-vid  vid">
+	    <iframe src="http://www.youtube.com/embed/T7v9k36y_4w?vq=hd720&rel=0&showinfo=0&controls=0&iv_load_policy=3&loop=1&&modestbranding=1&autoplay=1" width="560" height="315" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+	  </section>
+	</div>
+	</div>
+	</div>
+    </section>
+    {% include js.html %}
+    <script>
        $(document).ready(function(){ $(".fit-vid").fitVids(); });
-      </script>
-    </body>
+    </script>
+  </body>
 </html>
