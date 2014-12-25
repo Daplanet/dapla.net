@@ -1,0 +1,3 @@
+---
+permalink: /services/managed-cloud
+---
