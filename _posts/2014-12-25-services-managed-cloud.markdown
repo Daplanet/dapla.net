@@ -1,5 +1,4 @@
 ---
-permalink: /services/managed-cloud
 
 layout: default
 modal-id: 3
@@ -13,7 +12,7 @@ img: circus.png
 alt: Managed Honeynet
 title: Hosted Malware Collection Service
 category: On-demand Solutions
-description: <
+description: >
 To protect your network better Da Planet Security provides a hosted malware 
 collection service that will allow us to do predictive modeling on malicious
 traffic and prevent future intrusions with customized updated IDS definitions.
@@ -24,9 +23,11 @@ opengraph:
   - image: circus.png
   - site_name: Da Planet Security
   - fb_admins: 1
-  - description: <
+  - description: >
   To protect your network better Da Planet Security provides a hosted malware 
   collection service that will allow us to do predictive modeling on malicious 
   traffic and prevent future intrusions with customized updated IDS definitions.
+
+permalink: /services/managed-cloud
 
 ---
