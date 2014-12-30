@@ -9,6 +9,7 @@ img: cabin.png
 alt: cloud health
 title: Cloud Health Report
 category: Solutions 
+permalink: /products/cloud-health-report
 opengraph:
   title: Cloud Security Health Report
   type: article
