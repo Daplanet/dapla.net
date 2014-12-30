@@ -9,6 +9,7 @@ img: cake.png
 alt: image-alt
 title: Managed Threat Analysis
 category: Managed Solutions
+permalink: /services/managed-threat-analysis/
 description: >
   Da Planet Security's Managed Threat Analysis reduces risk by helping you
   protect your data and exceed compliance. It is backed by Da Planet Security's
