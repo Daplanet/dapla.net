@@ -9,7 +9,7 @@ sitemap:
 
 img: circus.png
 alt: Managed Honeynet
-title: Hosted Malware Collection Service - Da Planet Security
+title: Hosted Malware Collection Service
 category: On-demand Solutions
 permalink: /services/on-demand-honeynet
 description: <
