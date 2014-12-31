@@ -19,7 +19,7 @@ description: >
   environment.
 
 opengraph:
-  title: Managed Threat Analysis - Da Planet Security
+  title: Managed Threat Analysis
   type: article
   image: cake.png
   description: >
