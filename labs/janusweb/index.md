@@ -1,6 +1,6 @@
 ---
 title: VR Lab
-layout: vrsite
+layout: vrsites
 ---
 
 <FireBoxRoom> 
