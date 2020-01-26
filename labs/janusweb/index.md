@@ -1,5 +1,8 @@
+---
+title: VR Lab
 layout: vrsite
 ---
+
 <FireBoxRoom> 
 <Assets> 
 <AssetObject id="scan" 
