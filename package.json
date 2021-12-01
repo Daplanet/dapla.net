@@ -16,6 +16,6 @@
     "grunt-exec": "*"
   },
   "engines": {
-    "npm": "1.2.x"
+    "npm": "8.1.x"
   }
 }
